@@ -1,0 +1,21 @@
+Exsitem 3 maneiras de aplicar o CSS:
+
+CSS INLINE - junto à tag (menos recomendada)
+	- deverão ser colocadas em todas as linhas que deseja aplicar. Muito trabalhoso ("50 títulos") (desvantagem)
+	- dificulta a manutenção (desvantagem)
+	- difícil de distinguir o que é conteúdo e o que é estilo (desvantagem)
+
+CSS LOCAL - tag <style> criada dentro da <head>
+	- fica mais fácil de diferenciar a parte do conteúdo e da parte do estilo, separados visualmente (vantagem)
+	- o estilo ocupa muito mais linhas do que o HTML (desvantagem)
+	- caso haja mais páginas, o css deverá ser copiado e colado em todas as páginas (desvantagem)
+
+CSS EXTERNAS - css está em outro arquivo
+
+@charset "UTF-8"; (adicionando uma regra, compatibilidade com acentuação)
+
+é criado um link na página HTML " <link rel="stylesheet" href="style.css"> " e criado um novo arquivo CSS " style.css "
+
+é possível criar mais de uma página.css para o mesmo arquivo HTML!
+
+pode usar todos os métodos de CSS juntos, porém o que se sobresai é o Inline, depois o Local e depois o Externo.
